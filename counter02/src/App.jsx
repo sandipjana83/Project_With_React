@@ -9,8 +9,6 @@ function App() {
     //console.log('Clicked' , Math.random()); 
     if(count<20){
       count=count+1;
-      count=count +1;
-      count=count+1;
     }
     if(count>20){
       count=20
