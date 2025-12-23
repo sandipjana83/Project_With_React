@@ -1,0 +1,55 @@
+footer {
+  
+  color:darkslateblue;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+  
+}
+  h1{
+  text-align: center;
+  font-size: 44px;
+  font-family: Comic sans MS;
+  color:darkslategrey;
+
+}
+h2{
+  text-align:center;
+  color:black;
+}
+body{
+  background-image: url("https://img.freepik.com/free-vector/blurred-valentine-s-day-wallpaper_23-2148819570.jpg?semt=ais_hybrid&w=740");
+  background-size: cover;
+}
+#one{
+  animation-name: love;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes love{
+  from{
+    font-size:45px;
+    color: crimson;
+  }
+  to{
+    font-size: 60px;
+    color: hotpink;
+  }
+
+}
+.emoji{
+  text-align: center;
+  font-size: 100px;
+  animation :bounce 1s infinite ease-in-out;
+  will-change: transform ;
+}
+@keyframes bounce {
+  0%,100% {
+    transform:translate3d(-20px,0,0);
+  }
+  50%{
+   transform:translate3d(20px,-30px,0);
+  }
+  
+}

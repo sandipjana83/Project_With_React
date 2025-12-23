@@ -1,0 +1,189 @@
+z* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+
+header h1 {
+  margin-bottom: 10px;
+  
+}
+
+.about, .contact {
+  background: #fff;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: #e2c2c2;
+  color:darkslateblue;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+  
+}
+i{
+  color: coral;
+
+}
+/* b{
+  color: #007BFF;
+} */
+u{
+  color:#78ade4;
+  background-color: whitesmoke;
+}
+#one{
+  font-size: 55px;
+  font-family:Comic Sans MS;
+  color: darksalmon;
+  animation-name: one;
+  animation-duration: 0.7s;
+  animation-delay: 10ms;
+  animation-iteration-count: infinite;
+}
+#container{
+  position: sticky;
+  top:1px;
+  text-align: center;
+  height: 160px; ;
+  background-color: rgb(15, 80, 98);
+  border:10px solid whitesmoke;
+  border-radius:5px;
+  
+  animation-name: animate;
+  animation-duration:1.5s;
+  animation-delay:10ms ;
+  animation-iteration-count: infinite;
+  
+  
+ 
+}
+
+#navbar{
+  height:100px;
+  /* background-color:#b1d8d8; */
+  background-image: url("https://wallpapercave.com/wp/wp6680336.jpg");
+  background-size: cover;
+  border:7px solid #cbd3d3;
+  border-radius: 10px;
+  
+}
+#logo{
+  position: relative;
+  left: 4px;
+  color:rgb(151, 13, 13);
+  font-family:"Brush Script MT";
+  font-size:50px;
+  padding: 10px;
+  text-shadow: 1px 1px 2px gray;
+  animation-name: logo;
+  animation-duration: 1.2s;
+  animation-delay: 10ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+button{
+  font-size:20px;
+  position: relative;
+  bottom: 6px;
+  color:#007BFF;
+  background-color: darkgray;
+}
+#two{
+  position: relative;
+  left:50px;
+  bottom: 4px;
+  text-align: center;
+  margin: 400px;
+  font-size: 30px;
+  color:rgb(76, 8, 87);
+  text-decoration:underline;
+}
+input{
+  position: relative;
+  bottom:6px;
+  margin-bottom: 5px;
+  display: inline;
+  font-size:20px;
+  border:5px solid rgb(117, 153, 216);
+  text-align: start;
+  
+  
+}
+#profile{
+  background-color: beige;
+  position: relative;
+  left:300px;
+  width: 800px;
+  padding: 40px;
+  font-size: 20px;
+}
+@keyframes animate{
+  from{background-color: rgb(15, 80, 98);
+    
+  }
+  to{background-color: aquamarine;}
+}
+@keyframes one{
+  from{color: darksalmon;}
+  to{color: darkred;}
+}
+img{
+
+  height: 360px;
+  width: 300px;
+  position:relative;
+  left:600px;
+
+  animation-name: img;
+  animation-duration:4s;
+  animation-delay: 8sms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes img{
+  from{
+    left:-600px;
+  }
+  to{right: 50px;}
+
+}
+@keyframes logo{
+  from{
+    left:75px;
+
+    font-size: 44px;
+  }
+  to{right:-220px;
+    font-size:50px;
+  }
+}
+#logo:hover{
+  color: chocolate;
+}
